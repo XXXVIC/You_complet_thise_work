@@ -1,10 +1,12 @@
 <html>
   <h1 style="color:Blue">Close this web-site</h1>
-  <button onclick="closeTab()">Закрити вкладку</button>
+    <button onclick="closeCurrentTab()">Закрити вкладку</button>
 
     <script>
-        function closeTab() {
-            window.close();
+        function closeCurrentTab() {
+            if (confirm('Ви впевнені, що хочете закрити цю вкладку?')) {
+                window.close(); // Закрити вкладку
+            }
         }
     </script>
 </html>
