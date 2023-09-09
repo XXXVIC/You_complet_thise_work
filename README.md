@@ -4,8 +4,8 @@
 
     <script>
         function closeCurrentTab() {
-            if (confirm('Ви впевнені, що хочете закрити цю вкладку?')) {
-                window.close(); // Закрити вкладку
+            if (confirm('Ви впевнені, realy?')) {
+                window.close(); // Close web-site
             }
         }
     </script>
